@@ -1,0 +1,9 @@
+server:
+  port: 10043
+spring:
+  application:
+    name: xiaoliu-ribbon
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10086/eureka/

@@ -1,0 +1,11 @@
+spring:
+  application:
+      name: xiaoliu-feign
+server:
+  port: 10067
+eureka:
+#  instance:
+#    hostname: xiaoliu-feigns
+  client:
+    service-url:
+      defaultZone: http://localhost:10086/eureka/
